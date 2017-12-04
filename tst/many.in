@@ -1,0 +1,4 @@
+./print_args.sh a b c
+./print_args.sh d e f
+./print_args.sh g h i jkl mnop qrst
+./print_args.sh asd sdf kl kjaskdjaksd

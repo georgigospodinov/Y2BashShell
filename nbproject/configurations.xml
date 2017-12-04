@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="src">
+        <df name="ext">
+          <in>ecmds.c</in>
+          <in>eredirect.c</in>
+          <in>eredirect.h</in>
+          <in>esp.c</in>
+          <in>esp.h</in>
+          <in>piping.c</in>
+        </df>
+        <in>runcmds.c</in>
+        <in>runcommons.c</in>
+        <in>runcommons.h</in>
+        <in>runparallelcmds.c</in>
+        <in>shellsplit.c</in>
+        <in>sp.c</in>
+        <in>sp.h</in>
+        <in>test.c</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="src/ext/ecmds.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/eredirect.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/eredirect.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ext/esp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/esp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ext/piping.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/runcmds.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/runcommons.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/runcommons.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/runparallelcmds.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/shellsplit.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/sp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/sp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/test.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
